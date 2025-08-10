@@ -27,7 +27,7 @@
                                 Logout ({{ user.username }})
                             </a>
                             {% else %}
-                            <a class="nav-link active" href="#">Login</a>
+                            <a class="nav-link active" href="{% url 'loginaccount' %}">Login</a>
                             <a class="nav-link active" href="{% url 'signupaccount' %}">Sign Up</a>
                             {% endif %}
                     </div>
